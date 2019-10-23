@@ -1,0 +1,39 @@
+# Based on the ggplot style sheet: http://www.huyng.com/posts/sane-color-scheme-for-matplotlib/
+
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # blue
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+
+font.size: 14.0
+
+axes.facecolor: (0.898, 0.898, 0.898) # (0.898, 0.898, 0.898, 0.4) FIXME uncomment in newer version of mpl
+axes.edgecolor: (0.898, 0.898, 0.898) # (0.898, 0.898, 0.898, 0.4) FIXME uncomment in newer version of mpl
+axes.linewidth: 1
+axes.grid: True
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: 555555
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+
+axes.color_cycle: 92BEC1, FC967F, 6FABCD, FFC15E, BA858D, FFAD7E
+# cycler('color', ['92BEC1', '6FABCD', 'BA858D', 'FC967F', 'FFAD7E', 'FFC15E']) FIXME uncomment in newer version of mpl
+
+xtick.color: 555555
+xtick.direction: out
+
+ytick.color: 555555
+ytick.direction: out
+
+grid.color: (1, 1, 1)
+grid.linestyle: -    # solid line
+grid.alpha: 0
+
+figure.facecolor: (1, 1, 1) # (1, 1, 1, 0) FIXME uncomment in newer version of mpl
+figure.edgecolor: 0.50
+
+# errorbar props
+# errorbar.capsize: 3 FIXME uncomment in newer version of mpl
+
+# Legend
+legend.framealpha: 0.75

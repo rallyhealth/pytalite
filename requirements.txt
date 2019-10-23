@@ -1,0 +1,4 @@
+matplotlib>=1.4.3
+numpy>=1.9
+scipy>=0.15
+multiprocess>=0.70.4
